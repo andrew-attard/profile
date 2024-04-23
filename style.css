@@ -64,6 +64,11 @@ a:hover {
   color: rgb(60, 60, 60);
 }
 
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
 @media (max-width: 5000px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -95,11 +100,6 @@ a:hover {
     margin: 0 auto;
   }
 }
-
-/* .container {
-  width: 700px;
-  margin: 0 auto;
-} */
 
 .card {
   background-color: white;
